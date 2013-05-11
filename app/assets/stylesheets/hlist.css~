@@ -1,0 +1,80 @@
+/**
+ * "Yet Another Multicolumn Layout" - YAML CSS Framework
+ *
+ * (en) Horizontal list navigation "hlist"
+ * (de) Horizontale Navigationsliste "hlist"
+ *
+ * @copyright       Copyright 2005-2012, Dirk Jesse
+ * @license         CC-BY 2.0 (http://creativecommons.org/licenses/by/2.0/),
+ *                  YAML-CDL (http://www.yaml.de/license.html)
+ * @link            http://www.yaml.de
+ * @package         yaml
+ * @version         v4.0.2
+ * @revision        $Revision: 743 $
+ * @lastmodified    $Date: 2012-10-23 23:01:14 +0200 (Di, 23 Okt 2012) $
+ */
+
+@media all {
+
+	.ym-hlist {
+		/* (en) containing floats in IE */
+		/* (de) Einfassen der Floats im IE */
+		width:100%;
+		overflow:hidden;
+		/* (en|de) Bugfix:IE - collapsing horizontal margins */
+		position:relative;
+	}
+
+	.ym-hlist ul {
+		margin:0;
+		/* (en|de) Bugfix:IE - Doubled Float Margin Bug */
+		display:inline;
+		float:left; /* LTR */
+	}
+
+	.ym-hlist ul li {
+		/* (en|de) Bugfix:IE - Doubled Float Margin Bug */
+		display:inline;
+		float:left; /* LTR */
+		font-size:1.0em;
+		line-height:1em;
+		list-style-type:none;
+		padding:0;
+	}
+
+	.ym-hlist ul li a{
+		display:block;
+		font-size:1em;
+		line-height: 2em;
+		padding: 0.4em 1em;
+		text-decoration:none;
+		width:auto;
+		color:#EEE;
+		font-weight:bold;
+		text-shadow: 1px 0px 3px #222;
+		transition: color 20ms, background 150ms ease-in-out 200ms;
+	}
+
+	.ym-hlist ul li a:focus,
+	.ym-hlist ul li a:hover {
+			color:#000;
+	background-color:rgba(255,255,255,0.9);
+	text-shadow: 1px 0px 3px #EEE;
+	}
+
+	.ym-hlist ul li.active a{
+		background-color:orange;
+		color:#000;
+		text-shadow: 1px 0px 3px #EEE;
+		box-shadow: 0px 1px 2px #666;
+	}
+
+	.ym-hlist ul li.active a:focus,
+	.ym-hlist ul li.active a:hover,
+	.ym-hlist ul li.active a:active {
+		text-shadow: 1px 0px 3px #EEE;
+		box-shadow: 0px 1px 2px #666;
+		color:#000;
+	}
+
+
