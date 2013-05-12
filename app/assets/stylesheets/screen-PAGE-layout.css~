@@ -59,7 +59,10 @@
 	footer p {
 		margin: 0;
 	}
-
+	footer a:hover{
+		background:none;
+		text-decoration:underline;
+	}
 	/* Column-Set Configuration: 1-3 (sidebar right) */
 	.ym-column {
 		display:block;
