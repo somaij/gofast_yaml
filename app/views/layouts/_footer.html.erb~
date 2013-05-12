@@ -1,17 +1,24 @@
-<div class="ym-column">
-  <div class="ym-col1">
-    <div class="ym-cbox">
-     	<a href="#" class="active">Home</a></br>
-	<a href="#">About Us</a></br>
-	<a href="#">Quotes</a></br>
+<div class="ym-grid">
+  <div class="ym-g33 ym-gl">
+    <div class="ym-gbox">
+      <a href="#" class="active">Home</a></br>
+<a href="#">About Us</a></br>
+<a href="#">Quotes</a></br>
     </div>
   </div>
-  <div class="ym-col2">
-    <div class="ym-cbox">
-      	<a href="#">Jobs</a></br>
-	<a href="#">Contact Us</a></br>
+  <div class="ym-g33 ym-gr">
+    <div class="ym-gbox">
+     <a href="#">Jobs</a></br>
+<a href="#">Contact Us</a></br>
+    </div>
+  </div>
+<div class="ym-g33 ym-gr">
+    <div class="ym-gbox">
+     Go Fast Express Inc. All rights reserved
     </div>
   </div>
 </div>
+
+
 
 
